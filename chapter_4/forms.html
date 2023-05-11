@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form action="forms.php">
+            <input type="text" placeholder="Enter your name" /><br> 
+            <label for="sectionida">
+            <input type="radio" value="Section A" name="section" id="sectionida" />Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio"  name="section"  id="sectionidb" />Section B
+            </label><br>
+            <label for="idcard">
+                <input type="checkbox" name="idcard" id="idcard" />Do you have id card
+            </label><br>
+            <label for="start">Start date:</label>
+
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31"><br>
+            <textarea name="explain" id="explain" cols="30" rows="10"></textarea><br>
+            <select name="car" id="car">
+                <option value="No car">Select your car</option>
+                <option value="desire">desire</option>
+                <option value="i20">i20</option>
+                
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
